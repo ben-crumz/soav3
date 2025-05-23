@@ -18,18 +18,16 @@ header{
 
     text-decoration: none;
 
-    display: flex;
+    /* display: flex;
     justify-content: center;
     align-content: center;
     align-items: center;
     line-height: 200%;
     height: 40px;
-    /* color: white; */
     padding-block: 3px;
     padding-inline: 5px;
-    /* background-color: #E1128E; */
     border-left: solid 4px #000000;
-    border-right: solid 4px #000000;
+    border-right: solid 4px #000000; */
 }
 .nav-links{
     gap: var(--navLinks-spacing);
