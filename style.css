@@ -106,6 +106,12 @@ main{
 .gallery-selector > li:hover{
     color: #E1128E;
 }
+#active-gallery{
+    color: #E1128E;
+}
+#not-active-gallery{
+    color: black;
+}
 .gallery-images{
     column-count: 3;
     column-gap: 1.5em;
