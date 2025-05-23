@@ -1,0 +1,18 @@
+.flex-sb{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.ul-row{
+    display: flex;
+    flex-direction: row;
+
+    list-style: none;
+}
+.ul-row > li > a{
+    text-decoration: none;
+}
+.hidden{
+    display: none;
+}

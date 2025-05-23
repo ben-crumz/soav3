@@ -1,0 +1,27 @@
+.nav-links, .social-buttons{
+    display: none;
+}
+[data-color="bnw"]{
+    display: none;
+}
+@media screen and (min-width: 759px){
+    .nav-links{
+        display: flex;
+    }
+    .social-buttons{
+        display: grid;
+    }
+    .header-button{
+         display: none;
+    }
+}
+@media screen and (max-width: 880px){
+    .gallery-images{
+        column-count: 2;
+    }
+}
+@media screen and (max-width: 570px){
+    .gallery-images{
+        column-count: 1;
+    }
+}

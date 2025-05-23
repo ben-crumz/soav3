@@ -1,0 +1,125 @@
+html{
+    /* color-scheme: dark light; */
+}
+header{
+    height: var(--header-height);
+
+    padding-inline: 20px;
+
+    color: var(--header-txtclr);
+    background-color: var(--header-bckclr);
+    border-bottom: var(--header-border);
+    box-shadow: var(--header-shadow);
+
+}
+.logo{
+    font-family: var(--logo-font);
+    font-size:var(--logo-size);
+
+    text-decoration: none;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    line-height: 200%;
+    height: 40px;
+    /* color: white; */
+    padding-block: 3px;
+    padding-inline: 5px;
+    /* background-color: #E1128E; */
+    border-left: solid 4px #000000;
+    border-right: solid 4px #000000;
+}
+.nav-links{
+    gap: var(--navLinks-spacing);
+}
+.nav-link{
+    color: var(--header-txtclr);
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 550;
+}
+.header-button{
+    background-color: var(--header-bckclr);
+    border: none;
+
+    fill: var(--header-txtclr);
+}
+.active-link:after, .nav-link:hover:after{
+    content: '';
+    display: block;
+    margin: auto;
+    width: 70%;
+    height: 2px;
+    margin-top: 2%;
+    background-color: var(--header-txtclr);
+}
+.nav-link:hover{
+    color: var(--header-hvrclr);
+}
+.active-link:hover:after, .nav-link:hover:after{
+    background-color: var(--header-hvrclr);
+}
+.active-link:after{
+    background-color: #E1128E;
+}
+.social-buttons{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    padding-inline: 5px;
+    border-left: solid 3.7px #E1128E;
+    border-right: solid 3.7px #E1128E;
+
+    fill: var(--header-txtclr);
+}
+.social-button{
+    cursor: pointer;
+}
+.social-button:hover{
+    fill: var(--header-hvrclr);
+}
+main{
+    margin-inline: auto;
+    margin-top: 50px;
+
+    width: 70%;
+    /* background-color: black; */
+}
+.main-title{
+    font-family: var(--logo-font);
+    font-size: 40px;
+}
+.main-gallery{
+
+}
+.gallery-selector{
+    gap: 20px;
+
+    margin-block: 20px;
+}
+.gallery-selector > li{
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.gallery-selector > li:hover{
+    color: #E1128E;
+}
+.gallery-images{
+    column-count: 3;
+    column-gap: 1.5em;
+
+    padding-block: 1.5rem;
+    
+}
+.gallery-image{
+    width: 100%;
+    
+    margin-bottom: 2em;
+
+    box-shadow: 5PX 5PX 5px 2px rgba(165, 165, 165, 0.47);
+    border: solid 1px black;
+}
